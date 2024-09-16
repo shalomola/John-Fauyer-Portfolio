@@ -3,7 +3,7 @@ import { CONTACT, SOCIAL_MEDIA_LINKS } from "../constants"
 const Contact = () => {
   return (
     <section id="contact" >
-        <div className="mx-auto max-w-6xl" >
+        <div className="mx-auto max-w-7xl" >
             <p className="my-10 text-center text-3xl lg:text-8xl text-lime-300" >
                 Interested in Working Together?
             </p>

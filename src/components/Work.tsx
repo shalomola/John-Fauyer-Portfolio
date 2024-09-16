@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <section id="experience" >
         <h2 className="my-20 text-center text-3xl lg:text-8xl text-lime-300" >Work Experience</h2>
-        <div className="mx-auto max-w-6xl" >
+        <div className="mx-auto max-w-7xl" >
             {EXPERIENCES.map((experience, id) => (
                 <div key={id} className="mx-4 mb-20">
                     <h2 className="font-medium lg:text-2xl" >{experience.company}</h2>
